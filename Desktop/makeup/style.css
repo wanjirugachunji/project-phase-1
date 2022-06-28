@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+height: 100vh;
+width: 100%;
+background-image: url(img/img.jpg);
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    left: 0%;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: navy;
+}
+.content{
+    font-size: 2opx;
+    color: black;
+    font-style: italic;
+    
+}
+.content{
+    margin-left: 20%;
+    margin-top: 2`0;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg,#87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28 ,68,0.15 ,);
+}
+.baseimage{
+    height: 59.01%;
+    width: 40%;
+    position: absolute;
+    bottom: 2;
+    right: 10px;
+}
+#features{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20;
+    color: hotpink;
+    font-weight: bold; 
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text h1{
+     font-size: 50px;
+}
+.title-text p::after{
+    content: "";
+    width: 60px;
+    height: 35px;
+    background: linear-gradient(#ff77cd,white);
+    position: absolute;
+    top: -20.9px;
+    left: 0;
+    z-index: -1;
+    transform:rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+}
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    }
+    .features{
+        flex-basis: 50%;
+    }
+    .features-img{
+        flex-basis: 50%;
+        margin: auto;
+    }
+    .features-img img{
+        width: 70%;
+        border-radius: 10px;
+    }
+    .features h1{
+        text-align: left;
+        margin-bottom: 10px;
+        font-weight: 100;
+        color: hotpink;
+    }
+    .features-desc{
+display: flex;
+align-items: center;
+margin-bottom: 40px;
+text-align: initial;
+    }
+    .feature-text{
+        padding: 0.2;
+        text-align: initial;
+        }
+ #service{
+width: 100%;
+padding: 70px 0;
+background:lightgray;
+    }
+    .service-box{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .service1{
+        flex-basis: 48%;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative;
+    }
+    .service1 img{
+width: 100%;
+border-radius: 7px;
+
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        border-radius: 7px;
+        cursor: pointer;
+        background: linear-gradient(rgba(0,0,0,0.5),hotpink);
+        opacity: 0;
+        transition: 1s;
+    }
+    .service1:hover .overlay{
+    
+        opacity: 1;
+    }
+    .service-desc{
+        width: 80%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        opacity: 0;
+        transform: translateX(-50%);
+        transition: 1s;
+    }
+    hr{
+        background: #fff;
+        height: 2px;
+        border: 0;
+        margin: 15px auto;
+        width: 60%;
+
+    }
+    .service-desc p{
+font-size: 14px;
+    }
+    .service1:hover .service-desc{
+bottom: 40%;
+opacity: 1;
+    }
+    #Contact{
+        padding: 100px 0 20px;
+        background: lightpink;
+        position: relative;
+
+    }
+    .Contact-row{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left,.Contact-right{
+      flex-basis: 45%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .Contact-right{
+        text-align: right;
+    }
+   .Contact-row h1{
+       margin: 10px o;
+
+   }
+   .Contact-row p{
+       line-height: 35px;
+   }
+.contact-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: 
+
+}
+
+
+    html {
+        scroll-behavior: smooth;
+      }
+
+    
+    
+
+    
+
+
