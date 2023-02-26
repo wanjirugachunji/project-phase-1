@@ -1,0 +1,6 @@
+step 1:create a function that accepts two parameters
+step 2:subtract the two parameters and store results in a variable 
+step 3: create a second function that checks if the results is less than 0 or greater than 0 or equals to 0
+step 4:if the the results is < than 0 the first number is smaller the second number
+step 5: is results greater than 0,the first number is greater than the second number
+step 6: if result is equal to 0 the numbers are equal
